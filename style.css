@@ -1,0 +1,286 @@
+@font-face {
+    font-family: ComingSoon;
+    src: url(comingsoon.ttf);
+}
+@font-face {
+  font-family: ADfont;
+  src: url(architectsdaughter.ttf);
+}
+@font-face {
+  font-family: homemade;
+  src: url(homemadeapple.ttf);
+}
+#home {
+  background-image: url("http://3.bp.blogspot.com/_74W4LLw6g54/TSOMBzGuWsI/AAAAAAAAAWk/7q_vTHapZFs/s1600/Gooey%2BButter%2BBars.JPG");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: auto;
+  background-attachment: fixed;
+}
+
+h1 {
+  background-color: rgba(255, 255, 255, 0.2);
+  background-size: 100% 100%;
+  text-align: center;
+  font-style: italic;
+  font-family: homemade;
+  font-size: 25pt;
+  color: white;
+  text-shadow: 2px 2px rgba(0, 0, 0, 0.4);
+}
+
+#logo {
+  display: block;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  position: static;
+}
+
+.about {
+  margin-bottom: 30px;
+  background-color: #f49f9f;
+  border-style: dashed;
+  border-radius: 10px;
+  border-color: #f49f9f;
+  height: 380px;
+  margin: 100px 0;
+  vertical-align: top;
+  width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.about img {
+  margin-right: 20px;
+  margin-left: 20px;
+  margin-top: 40px;
+  float: left;
+}
+
+.about h2 {
+  text-align: left;
+  font-size: 15pt;
+  color: white;
+  text-shadow: 2px 2px rgba(0, 0, 0, 0.1);
+  margin-bottom: 10px;
+}
+.about p {  margin-right: 10px;
+  color: white;
+  font-family: serif;
+  font-style: italic;
+  font-size: 15pt;
+}
+.nav {
+  background-color: #f49f9f;
+  border-style: dashed;
+  border-color: #f49f9f;
+  border-radius: 10px;
+  height: 60px;
+  width: 1005px;
+  margin: 100px 0;
+    margin-bottom: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -50px;
+  vertical-align: top;
+  display: block;
+
+
+}
+.nav /*font*/ {
+  font-family: homemade; cursive;
+  font-size: 15pt;
+  color: white;
+  text-shadow: 2px 2px rgba(0, 0, 0, 0.1)
+}
+.opac:hover {
+  opacity: .5;
+
+}
+
+.nav ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  padding-right: 45px;
+  text-align: center;
+}
+
+
+a {
+  color: inherit;
+  text-decoration: inherit;
+}
+#menu {
+  background-image: url("smallarnettreunion.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: auto;
+  background-attachment: fixed;
+}
+
+h3 {
+  margin-top: 60px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: -2px;
+  text-align: center;
+  font-family: ADfont;
+  font-size: 30pt;
+  color: white;
+  background-color: pink;
+  width: 25%;
+  height: 60px;
+  padding-top: 10px;
+  font-weight: lighter;
+}
+
+table, th, td {
+  background-color: #f49f9f;
+   margin-left: auto;
+   margin-right: auto;
+   padding: 10px;
+   text-align: center;
+   margin-top: 50px;
+
+}
+h5 {
+display: inline;
+  font-family: homemade;
+  font-size: 19pt;
+}
+p4 {
+  font-family: ADfont;
+}
+p6 {
+  font-family: homemade;
+  font-size: 24pt;
+  margin-right: 30px;
+}
+/* Style the tab */
+div.tab {
+    overflow: hidden;
+    border: 1px solid #f49f9f;
+    background-color: #f49f9f;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.tab ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  padding-right: 50px;
+  margin: auto;
+}
+
+/* Style the buttons inside the tab */
+div.tab button {
+    background-color: inherit;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-family: ADfont;
+    font-size: 15pt;
+    color: white;
+    text-shadow: 2px 2px rgba(0, 0, 0, 0.1)
+}
+
+/* Change background color of buttons on hover */
+div.tab button:hover {
+  opacity: .5;
+}
+
+/* Create an active/current tablink class */
+div.tab button.active {
+  opacity: .5;
+}
+
+/* Style the tab content */
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+
+    border-top: none;
+}
+/*.sidenav {
+  position: fixed;
+    top: 1;
+    right: -7;
+    height: 1;
+    text-align: left;
+  background-color: pink;
+  height: auto;
+  width: 300px;
+  font-style: italic;
+  font-family: homemade;
+  font-size: 25pt;
+  color: white;
+  text-shadow: 2px 2px rgba(0, 0, 0, 0.4)
+}*/
+#mySidenav {
+    height: contain;
+    width: 0;
+    position: fixed;
+    /*z-index: 1;*/
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    overflow: scroll;
+    white-space: nowrap;
+    border-bottom-right-radius: 10px;
+    text-shadow: .2;
+}
+
+#mySidenav a {
+    padding: 8px 8px 8px 32px;
+    font-size: 25px;
+    color: #f49f9f;
+    display: block;
+    transition: 0.3s;
+}
+
+#mySidenav a:hover, .offcanvas a:focus{
+    color: #f1f1f1;
+}
+
+#mySidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 40px;
+
+}
+
+#main {
+    transition: margin-left .5s;
+    padding: 16px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+span {
+  color: white;
+  background-size: cover;
+  background-color: #f49f9f;
+  border-radius: 50%;
+  padding-top: .5%;
+  padding-bottom: .5%;
+  padding-left: 1%;
+  padding-right: 1%;
+  transition: 1s;
+  position: fixed;
+    top: 1;
+    height: 1;
+
+}
